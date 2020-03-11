@@ -2704,7 +2704,6 @@ body {
   .slider__header .slick-dots {
     -webkit-transform: translateY(-300px);
         -ms-transform: translateY(-300px);
-            transform: translateY(-300px);
     margin-top: -150px;
   }
   .header__menu.active {
@@ -2735,7 +2734,6 @@ body {
   .slider__header .slick-dots {
     -webkit-transform: translateY(-200px);
         -ms-transform: translateY(-200px);
-            transform: translateY(-200px);
     margin-top: -230px;
   }
   .one {
@@ -2751,12 +2749,10 @@ body {
   .slider .slick-arrow.slick-prev {
     -webkit-transform: translate(-1100px, 214px) rotate(45deg);
         -ms-transform: translate(-1100px, 214px) rotate(45deg);
-            transform: translate(-1100px, 214px) rotate(45deg);
   }
   .slider .slick-arrow.slick-next {
     -webkit-transform: translate(-865px, 215px) rotate(45deg);
         -ms-transform: translate(-865px, 215px) rotate(45deg);
-            transform: translate(-865px, 215px) rotate(45deg);
   }
   .button-first {
     width: 100px;
@@ -2767,37 +2763,31 @@ body {
   .stleft {
     -webkit-transform: translate(33px, 442px);
         -ms-transform: translate(33px, 442px);
-            transform: translate(33px, 442px);
   }
   .stright {
     -webkit-transform: translate(269px, 443px);
         -ms-transform: translate(269px, 443px);
-            transform: translate(269px, 443px);
   }
   .interer h2 {
     font-size: 45px;
     -webkit-transform: translateY(-310px) translateX(0px);
         -ms-transform: translateY(-310px) translateX(0px);
-            transform: translateY(-310px) translateX(0px);
     letter-spacing: 0.2em;
   }
   .img1 {
     -webkit-transform: translateX(-845px) translateY(240px);
         -ms-transform: translateX(-845px) translateY(240px);
-            transform: translateX(-845px) translateY(240px);
     width: 240px;
   }
   .img2 {
     -webkit-transform: translateX(-850px) translateY(240px);
         -ms-transform: translateX(-850px) translateY(240px);
-            transform: translateX(-850px) translateY(240px);
     height: 135px;
     width: 50px;
   }
   .img3 {
     -webkit-transform: translateX(-1040px);
         -ms-transform: translateX(-1040px);
-            transform: translateX(-1040px);
     margin-top: 268px;
     width: 125px;
     height: 70px;
@@ -2819,26 +2809,22 @@ body {
   .slider2 .slick-arrow.slick-prev {
     -webkit-transform: translate(100px, 220px) rotate(45deg);
         -ms-transform: translate(100px, 220px) rotate(45deg);
-            transform: translate(100px, 220px) rotate(45deg);
     width: 50px;
     height: 50px;
   }
   .slider2 .slick-arrow.slick-next {
     -webkit-transform: translate(190px, 220px) rotate(45deg);
         -ms-transform: translate(190px, 220px) rotate(45deg);
-            transform: translate(190px, 220px) rotate(45deg);
     width: 50px;
     height: 50px;
   }
   .stleft2 {
     -webkit-transform: translate(114px, 540px);
         -ms-transform: translate(114px, 540px);
-            transform: translate(114px, 540px);
   }
   .stright2 {
     -webkit-transform: translate(204px, 540px);
         -ms-transform: translate(204px, 540px);
-            transform: translate(204px, 540px);
   }
   .about h2 {
     font-size: 37px;
@@ -2920,7 +2906,6 @@ body {
   .slider__header .slick-dots {
     -webkit-transform: translateY(-300px);
         -ms-transform: translateY(-300px);
-            transform: translateY(-300px);
     margin-top: -150px;
   }
   .header__menu.active {
@@ -2951,7 +2936,6 @@ body {
   .slider__header .slick-dots {
     -webkit-transform: translateY(-200px);
         -ms-transform: translateY(-200px);
-            transform: translateY(-200px);
     margin-top: -230px;
   }
   .one {
@@ -2967,12 +2951,10 @@ body {
   .slider .slick-arrow.slick-prev {
     -webkit-transform: translate(-1100px, 214px) rotate(45deg);
         -ms-transform: translate(-1100px, 214px) rotate(45deg);
-            transform: translate(-1100px, 214px) rotate(45deg);
   }
   .slider .slick-arrow.slick-next {
     -webkit-transform: translate(-875px, 215px) rotate(45deg);
         -ms-transform: translate(-875px, 215px) rotate(45deg);
-            transform: translate(-875px, 215px) rotate(45deg);
   }
   .button-first {
     width: 100px;
@@ -2983,37 +2965,31 @@ body {
   .stleft {
     -webkit-transform: translate(33px, 438px);
         -ms-transform: translate(33px, 438px);
-            transform: translate(33px, 438px);
   }
   .stright {
     -webkit-transform: translate(259px, 440px);
         -ms-transform: translate(259px, 440px);
-            transform: translate(259px, 440px);
   }
   .interer h2 {
     font-size: 40px;
     -webkit-transform: translateY(-275px) translateX(0px);
         -ms-transform: translateY(-275px) translateX(0px);
-            transform: translateY(-275px) translateX(0px);
     letter-spacing: 0.2em;
   }
   .img1 {
     -webkit-transform: translateX(-865px) translateY(210px);
         -ms-transform: translateX(-865px) translateY(210px);
-            transform: translateX(-865px) translateY(210px);
     width: 230px;
   }
   .img2 {
     -webkit-transform: translateX(-870px) translateY(210px);
         -ms-transform: translateX(-870px) translateY(210px);
-            transform: translateX(-870px) translateY(210px);
     height: 129px;
     width: 50px;
   }
   .img3 {
     -webkit-transform: translateX(-1060px);
         -ms-transform: translateX(-1060px);
-            transform: translateX(-1060px);
     margin-top: 231px;
     width: 125px;
     height: 70px;
@@ -3035,26 +3011,22 @@ body {
   .slider2 .slick-arrow.slick-prev {
     -webkit-transform: translate(90px, 200px) rotate(45deg);
         -ms-transform: translate(90px, 200px) rotate(45deg);
-            transform: translate(90px, 200px) rotate(45deg);
     width: 50px;
     height: 50px;
   }
   .slider2 .slick-arrow.slick-next {
     -webkit-transform: translate(180px, 200px) rotate(45deg);
         -ms-transform: translate(180px, 200px) rotate(45deg);
-            transform: translate(180px, 200px) rotate(45deg);
     width: 50px;
     height: 50px;
   }
   .stleft2 {
     -webkit-transform: translate(104px, 492px);
         -ms-transform: translate(104px, 492px);
-            transform: translate(104px, 492px);
   }
   .stright2 {
     -webkit-transform: translate(194px, 493px);
         -ms-transform: translate(194px, 493px);
-            transform: translate(194px, 493px);
   }
   .about h2 {
     font-size: 35px;
