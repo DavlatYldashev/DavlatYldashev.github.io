@@ -2035,6 +2035,23 @@ ul {
 	}
 }
 
+
+@media screen and (max-width: 620px) {
+	.select {
+		transform: translateX(290px) translateY(-38px);
+		width: 80px;
+		height: 30px;
+	}
+ 
+	.btn3 {
+		transform: translateX(380px) translateY(0px);
+		width: 70px;
+		padding: 12px 20px 12px 20px;
+		margin-top: -76px;
+	}
+}
+
+
 @media screen and (max-width: 610px) {
 	.left1 {
 	    float: left;
