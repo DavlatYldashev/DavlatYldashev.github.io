@@ -133,7 +133,7 @@ body {
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
 }
-.border-gradient1 {
+.header__button {
   width: 160px;
   padding: 22px 40px;
   text-align: center;
@@ -151,7 +151,7 @@ body {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.2em;
 }
-.border-gradient1:hover {
+.header__button:hover {
   -o-border-image: -o-linear-gradient(#1d57c4, #1670cb, #01b6df);
      border-image: -webkit-gradient(linear, left top, left bottom, from(#1d57c4), color-stop(#1670cb), to(#01b6df));
      border-image: linear-gradient(#1d57c4, #1670cb, #01b6df);
@@ -1769,7 +1769,7 @@ body {
   .pp {
     padding: 30px 446px 0 0;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     margin-left: 250px;
   }
@@ -1956,7 +1956,7 @@ body {
   .pp {
     padding: 30px 496px 0 0;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     margin-left: 200px;
   }
@@ -2116,7 +2116,7 @@ body {
     padding: 30px 500px 0 0;
     font-size: 70px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     margin-left: 150px;
   }
@@ -2497,7 +2497,7 @@ body {
     padding: 30px 785px 0 0;
     width: 300px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     width: 140px;
     padding: 18px 40px;
@@ -2729,7 +2729,7 @@ body {
     width: 260px;
     font-size: 11px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     width: 140px;
     padding: 18px 40px;
@@ -2945,7 +2945,7 @@ body {
     width: 240px;
     font-size: 11px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     width: 140px;
     padding: 18px 40px;
@@ -3085,7 +3085,7 @@ body {
   .footerh3 {
     margin: -460px 0 0 20px;
   }
-  .background-gradient1 {
+  .header__button {
     margin-right: 865px;
     width: 250px;
     margin-top: -120px;

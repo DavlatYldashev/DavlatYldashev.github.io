@@ -130,7 +130,7 @@ body {
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
 }
-.border-gradient1 {
+.header__button {
   width: 160px;
   padding: 22px 40px;
   text-align: center;
@@ -148,7 +148,7 @@ body {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.2em;
 }
-.border-gradient1:hover {
+.header__button:hover {
   -o-border-image: -o-linear-gradient(#1d57c4, #1670cb, #01b6df);
      border-image: -webkit-gradient(linear, left top, left bottom, from(#1d57c4), color-stop(#1670cb), to(#01b6df));
      border-image: linear-gradient(#1d57c4, #1670cb, #01b6df);
@@ -160,7 +160,7 @@ body {
   padding-bottom: 200px;
   margin-top: -20px;
 }
-.one {
+.nomber__slider__one {
   color: #fff;
   font-size: 60px;
   font-family: 'Oswald', sans-serif;
@@ -170,7 +170,7 @@ body {
   margin: 0;
   float: left;
 }
-.five {
+.nomber__slider__five {
   color: #0ebae1;
   font-size: 30px;
   text-decoration: none;
@@ -207,7 +207,7 @@ body {
   margin: 0;
   font-weight: 500;
 }
-.button-first {
+.location__button {
   width: 160px;
   padding: 22px 40px;
   text-align: center;
@@ -226,7 +226,7 @@ body {
   margin-right: 420px;
   margin-top: 65px;
 }
-.button-first:hover {
+.location__button:hover {
   -o-border-image: -o-linear-gradient(#0B0E7F, #0B95DD);
      border-image: -webkit-gradient(linear, left top, left bottom, from(#0B0E7F), to(#0B95DD));
      border-image: linear-gradient(#0B0E7F, #0B95DD);
@@ -314,10 +314,8 @@ body {
   font-family: 'Oswald', sans-serif;
   padding: 0px;
   font-weight: 500;
-  margin: 0;
-  -webkit-transform: translateY(-185px);
-      -ms-transform: translateY(-185px);
-          transform: translateY(-185px);
+  margin: -185px 0 0 0;
+  float: left;
 }
 .interer {
   -webkit-transform: translateY(-100px);
@@ -405,40 +403,40 @@ body {
   -webkit-filter: invert(100);
           filter: invert(100);
 }
-.seven {
+.interer__number__one {
   color: #fff;
   font-size: 60px;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   display: block;
   padding: 0px 0 0 0;
-  margin: -90px 0 0 410px;
+  margin: 100px 0 0 410px;
   float: left;
 }
-.sixtin {
+.interer__number__fri {
   color: #0ebae1;
   font-size: 30px;
   text-decoration: none;
   padding: 0 0 0 5px;
-  margin: -53px 0 0 430px;
+  margin: 136px 0 0 0px;
   float: left;
   display: block;
   font-family: 'Oswald', sans-serif;
 }
-.section33-bg {
+.bkg_section3 {
   float: left;
   margin: -50px 0 0 -300px;
   padding: 0;
   z-index: 3;
   position: relative;
 }
-.about {
+.our-services {
   padding-top: 200px;
   margin-bottom: -180px;
   float: right;
   margin-right: 100px;
 }
-.about h3 {
+.our-services h3 {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.1em;
   background: -o-linear-gradient(45deg, #01b5df 33%, #0d6aab 66%, #1d58c4);
@@ -451,7 +449,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.about h2 {
+.our-services h2 {
   font-size: 90px;
   color: #fff;
   letter-spacing: 0.23em;
@@ -787,7 +785,7 @@ body {
   z-index: 5;
   position: relative;
 }
-.background-gradient1 {
+.footer__button {
   width: 385px;
   padding: 25px 40px;
   text-align: center;
@@ -1016,7 +1014,7 @@ body {
   .header__menu.active {
     left: 550px;
   }
-  .one {
+  .nomber__slider__one {
     padding: 100px 0 0 50px;
   }
   .stleft {
@@ -1065,10 +1063,10 @@ body {
         -ms-transform: translateX(-50px);
             transform: translateX(-50px);
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -20px 0 0 0px;
   }
-  .seven {
+  .interer__number__one {
     margin: -57px 0 0 410px;
   }
   .slider2 .slick-arrow.slick-prev {
@@ -1100,7 +1098,7 @@ body {
   .kolonna3 {
     margin-right: 100px;
   }
-  .about {
+  .our-services {
     margin-right: 150px;
   }
   .footerh3 {
@@ -1109,10 +1107,10 @@ body {
   .footerh2 {
     margin: -690px 130px 0 0;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 220px;
   }
-  .button-first {
+  .location__button {
     margin-right: 470px;
   }
 }
@@ -1152,7 +1150,7 @@ body {
         -ms-transform: translate(993px, 423px);
             transform: translate(993px, 423px);
   }
-  .button-first {
+  .location__button {
     margin-right: 540px;
   }
   .img3 {
@@ -1162,10 +1160,10 @@ body {
     display: block;
     margin-top: 550px;
   }
-  .seven {
+  .interer__number__one {
     margin: -300px 0 0 290px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -263px 0 0 320px;
   }
   .img4 {
@@ -1221,10 +1219,10 @@ body {
         -ms-transform: translate(75px, 540px);
             transform: translate(75px, 540px);
   }
-  .about {
+  .our-services {
     margin-right: 250px;
   }
-  .about h2 {
+  .our-services h2 {
     position: relative;
     z-index: 4;
   }
@@ -1274,7 +1272,7 @@ body {
         -ms-transform: translate(893px, 423px);
             transform: translate(893px, 423px);
   }
-  .button-first {
+  .location__button {
     float: left;
   }
   .slider2 .slick-arrow.slick-prev {
@@ -1334,7 +1332,7 @@ body {
   .footerh3 {
     margin: -720px 0 0 430px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 270px;
   }
   .section5 p {
@@ -1426,7 +1424,7 @@ body {
         -ms-transform: translateX(-320px) translateY(330px);
             transform: translateX(-320px) translateY(330px);
   }
-  .about {
+  .our-services {
     margin-right: 0px;
     float: left;
     margin-left: 50px;
@@ -1441,7 +1439,7 @@ body {
     margin-top: -710px;
     margin-right: 380px;
   }
-  .about h3 {
+  .our-services h3 {
     text-align: center;
     display: block;
   }
@@ -1451,7 +1449,7 @@ body {
   .footerh2 {
     margin: -690px 280px 0 0;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 370px;
   }
   .section5 p {
@@ -1564,10 +1562,10 @@ body {
             transform: translateX(40px);
     padding-top: 10px;
   }
-  .seven {
+  .interer__number__one {
     margin: -300px 0 0 250px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -263px 0 0 270px;
   }
   .slider2 .slick-arrow.slick-prev {
@@ -1590,7 +1588,7 @@ body {
         -ms-transform: translate(323px, 930px);
             transform: translate(323px, 930px);
   }
-  .about {
+  .our-services {
     margin-top: -100px;
   }
   .footerh2 {
@@ -1599,7 +1597,7 @@ body {
   .footerh3 {
     margin: -720px 0 0 230px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 470px;
   }
   .section5 p {
@@ -1615,7 +1613,7 @@ body {
     margin-top: -710px;
     margin-right: 420px;
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 80px;
   }
 }
@@ -1644,7 +1642,7 @@ body {
   .location h2 {
     font-size: 80px;
   }
-  .one {
+  .nomber__slider__one {
     padding: 100px 0 0 20px;
   }
   .stleft {
@@ -1707,10 +1705,10 @@ body {
     float: right;
     width: 360px;
   }
-  .seven {
+  .interer__number__one {
     margin: -300px 0 0 150px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -263px 0 0 170px;
   }
   .stleft2 {
@@ -1733,7 +1731,7 @@ body {
   .kolonna2 {
     margin: -80px 0px 50px 220px;
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 70px;
   }
   .footerh2 {
@@ -1742,7 +1740,7 @@ body {
   .footerh3 {
     margin: -720px 0 0 130px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 570px;
   }
 }
@@ -1766,7 +1764,7 @@ body {
   .pp {
     padding: 30px 446px 0 0;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     margin-left: 250px;
   }
@@ -1825,11 +1823,11 @@ body {
     float: right;
     width: 317px;
   }
-  .seven {
+  .interer__number__one {
     margin: -280px 0 0 150px;
     font-size: 50px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -256px 0 0 170px;
     font-size: 30px;
   }
@@ -1853,10 +1851,10 @@ body {
         -ms-transform: translate(360px, 300px) rotate(45deg);
             transform: translate(360px, 300px) rotate(45deg);
   }
-  .about {
+  .our-services {
     margin-left: 30px;
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 60px;
   }
   .kolonna:hover {
@@ -1891,7 +1889,7 @@ body {
   .footerh3 {
     margin: -720px 0 0 30px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 670px;
   }
   .section5 p {
@@ -1953,14 +1951,14 @@ body {
   .pp {
     padding: 30px 496px 0 0;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     margin-left: 200px;
   }
-  .one {
+  .nomber__slider__one {
     padding: 10px 0 0 20px;
   }
-  .five {
+  .nomber__slider__five {
     padding-top: 46px;
   }
   .location {
@@ -2013,11 +2011,11 @@ body {
     float: right;
     width: 285px;
   }
-  .seven {
+  .interer__number__one {
     margin: -265px 0 0 130px;
     font-size: 45px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -241px 0 0 145px;
     font-size: 25px;
   }
@@ -2031,7 +2029,7 @@ body {
         -ms-transform: translate(273px, 780px);
             transform: translate(273px, 780px);
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 55px;
   }
   .kolonna {
@@ -2058,7 +2056,7 @@ body {
     position: relative;
     height: 600px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 725px;
     width: 335px;
     margin-top: -130px;
@@ -2113,11 +2111,11 @@ body {
     padding: 30px 500px 0 0;
     font-size: 70px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     margin-left: 150px;
   }
-  .button-first {
+  .location__button {
     width: 140px;
     padding: 18px 40px;
   }
@@ -2173,11 +2171,11 @@ body {
     float: right;
     width: 260px;
   }
-  .seven {
+  .interer__number__one {
     margin: -240px 0 0 130px;
     font-size: 45px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -216px 0 0 145px;
     font-size: 25px;
   }
@@ -2201,7 +2199,7 @@ body {
         -ms-transform: translate(285px, 685px);
             transform: translate(285px, 685px);
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 50px;
     margin-left: 20px;
   }
@@ -2229,7 +2227,7 @@ body {
     position: relative;
     height: 600px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 725px;
     width: 335px;
     margin-top: -130px;
@@ -2288,7 +2286,7 @@ body {
   .header__menu.active {
     left: 285px;
   }
-  .button-first {
+  .location__button {
     width: 140px;
     padding: 18px 40px;
     margin-left: 80px;
@@ -2351,11 +2349,11 @@ body {
     float: right;
     width: 235px;
   }
-  .seven {
+  .interer__number__one {
     margin: -220px 0 0 110px;
     font-size: 40px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -196px 0 0 122px;
     font-size: 20px;
   }
@@ -2388,10 +2386,10 @@ body {
         -ms-transform: translateX(0px) translateY(0px);
             transform: translateX(0px) translateY(0px);
   }
-  .about {
+  .our-services {
     margin-left: 30px;
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 45px;
     margin-left: 0px;
   }
@@ -2419,7 +2417,7 @@ body {
     position: relative;
     height: 500px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 760px;
     width: 300px;
     margin-top: -70px;
@@ -2481,7 +2479,7 @@ body {
     padding-top: 40px;
   }
   .heading h1 {
-    padding: 30px 500px 0 0;
+    padding: 30px 510px 0 0;
     font-size: 60px;
   }
   .slider__header .slick-dots {
@@ -2491,14 +2489,14 @@ body {
     margin-top: -160px;
   }
   .pp {
-    padding: 30px 785px 0 0;
+    padding: 30px 795px 0 0;
     width: 300px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     width: 140px;
     padding: 18px 40px;
-    margin: 70px 0 0 100px;
+    margin: 70px 0 0 90px;
   }
   .location h2 {
     font-size: 67px;
@@ -2512,7 +2510,7 @@ body {
             transform: translateY(-300px);
     margin-top: -200px;
   }
-  .button-first {
+  .location__button {
     width: 100px;
     padding: 15px 40px;
     margin-left: 70px;
@@ -2579,11 +2577,11 @@ body {
     float: right;
     width: 195px;
   }
-  .seven {
+  .interer__number__one {
     margin: -180px 0 0 100px;
     font-size: 30px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -162px 0 0 110px;
     font-size: 15px;
   }
@@ -2611,10 +2609,10 @@ body {
         -ms-transform: translate(127px, 600px);
             transform: translate(127px, 600px);
   }
-  .about {
+  .our-services {
     margin-left: 30px;
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 40px;
     margin-left: 0px;
   }
@@ -2623,11 +2621,7 @@ body {
     font-size: 56px;
     float: left;
   }
-  .background-gradient1 {
-    margin-right: 815px;
-    width: 250px;
-    margin-top: -120px;
-  }
+
 }
 @media screen and (max-width: 420px) {
   .kolonna {
@@ -2725,18 +2719,18 @@ body {
     width: 260px;
     font-size: 11px;
   }
-  .border-gradient1 {
+  .header__button {
     float: left;
     width: 140px;
     padding: 18px 40px;
-    margin: 70px 0 0 80px;
+    margin: 70px 0 0 63px;
   }
   .slider__header .slick-dots {
     -webkit-transform: translateY(-200px);
         -ms-transform: translateY(-200px);
     margin-top: -230px;
   }
-  .one {
+  .nomber__slider__one {
     padding: 22px 0 0 20px;
     font-size: 50px;
   }
@@ -2754,7 +2748,7 @@ body {
     -webkit-transform: translate(-865px, 215px) rotate(45deg);
         -ms-transform: translate(-865px, 215px) rotate(45deg);
   }
-  .button-first {
+  .location__button {
     width: 100px;
     padding: 13px 40px;
     margin-left: 50px;
@@ -2798,11 +2792,11 @@ body {
     float: right;
     width: 165px;
   }
-  .seven {
+  .interer__number__one {
     margin: -160px 0 0 100px;
     font-size: 30px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -142px 0 0 110px;
     font-size: 15px;
   }
@@ -2826,11 +2820,11 @@ body {
     -webkit-transform: translate(204px, 540px);
         -ms-transform: translate(204px, 540px);
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 37px;
     margin-left: 0px;
   }
-  .about {
+  .our-services {
     margin-left: 15px;
   }
   .kolonna {
@@ -2852,7 +2846,7 @@ body {
   .footerh3 {
     margin: -460px 0 0 20px;
   }
-  .background-gradient1 {
+  .footer__button {
     margin-right: 855px;
     width: 250px;
     margin-top: -120px;
@@ -2864,11 +2858,11 @@ body {
   }
 }
 @media screen and (max-width: 360px) {
-  .about h2 {
+  .our-services h2 {
     font-size: 35px;
     margin-left: 0px;
   }
-  .about {
+  .our-services {
     margin-left: 15px;
   }
   .kolonna {
@@ -2938,7 +2932,7 @@ body {
         -ms-transform: translateY(-200px);
     margin-top: -230px;
   }
-  .one {
+  .nomber__slider__one {
     padding: 22px 0 0 20px;
     font-size: 50px;
   }
@@ -2956,7 +2950,7 @@ body {
     -webkit-transform: translate(-875px, 215px) rotate(45deg);
         -ms-transform: translate(-875px, 215px) rotate(45deg);
   }
-  .button-first {
+  .location__button {
     width: 100px;
     padding: 13px 40px;
     margin-left: 45px;
@@ -3000,11 +2994,11 @@ body {
     float: right;
     width: 155px;
   }
-  .seven {
+  .interer__number__one {
     margin: -140px 0 0 100px;
     font-size: 25px;
   }
-  .sixtin {
+  .interer__number__fri {
     margin: -128px 0 0 110px;
     font-size: 15px;
   }
@@ -3028,11 +3022,11 @@ body {
     -webkit-transform: translate(194px, 493px);
         -ms-transform: translate(194px, 493px);
   }
-  .about h2 {
+  .our-services h2 {
     font-size: 35px;
     margin-left: 0px;
   }
-  .about {
+  .our-services {
     margin-left: 10px;
   }
   .kolonna {
@@ -3054,19 +3048,14 @@ body {
   .footerh3 {
     margin: -460px 0 0 20px;
   }
-  .background-gradient1 {
-    margin-right: 865px;
-    width: 250px;
-    margin-top: -120px;
-    padding: 18px 20px;
-  }
+
   .section5 p {
     margin-left: 5px;
     width: 290px;
   }
 }
 @media screen and (max-width: 320px) {
-  .about {
+  .our-services {
     margin-left: 5px;
   }
   .section5 p {
